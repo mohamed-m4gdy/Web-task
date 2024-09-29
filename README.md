@@ -1,3 +1,11 @@
+### Tools
+
+## i18n Nuxt
+## tailwind css
+## nuxt 3
+## vcalendar
+
+
 ### Project Features
 
 ## Language Switcher:
