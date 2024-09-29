@@ -28,6 +28,18 @@
 
 # Fully responsive design for a smooth user experience on both mobile and desktop devices.
 
+# Localization Functionality
+## A function has been created in the scripts folder that can be executed with the command:
+
+# npm run getLang
+
+## This function retrieves all words defined using $t('') in the project and writes them to the localization files in the locales folder These files can be used to manage translations in the future.
+
+
+
+
+
+
 ### Setup
 
 ## Make sure to install the dependencies:
