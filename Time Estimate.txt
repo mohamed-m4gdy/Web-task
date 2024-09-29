@@ -1,0 +1,16 @@
+Time Estimate::::
+Phase 1: 3 hours
+Tasks Covered: Initial setup, planning, and feature implementation.
+Phase 2: 3 hours
+Tasks Covered: Testing, debugging, and finalizing the project.
+Total Time Estimate: 6 hours
+
+
+Risk Assessment:::
+
+The Figma file is not providing high-quality or appropriately sized images.
+This could lead to delays in UI implementation, as you might 
+need to spend extra time extracting and optimizing images.
+Lack of API Endpoints:
+
+There are no available API endpoints, making it impossible to interact with live data.
