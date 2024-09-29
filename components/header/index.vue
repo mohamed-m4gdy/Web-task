@@ -3,11 +3,11 @@
     <div class="flex justify-end md:justify-between items-center py-6 flex-row-reverse md:flex-row">
       <div class="w-full md:hidden">
         <ULink :to="localePath(`/`)">
-          <img class="block mx-auto" src="~/assets/images/logo.png" alt="Logo" loading="lazy"/>
+          <img class="block mx-auto relative z-[9999999999]" src="~/assets/images/logo.png" alt="Logo" loading="lazy"/>
         </ULink>
       </div>
       <ULink :to="localePath(`/`)">
-        <img class="hidden md:block" src="~/assets/images/logo.png" alt="Logo" loading="lazy"/>
+        <img class="hidden md:block relative z-[9999999999]" src="~/assets/images/logo.png" alt="Logo" loading="lazy"/>
       </ULink>
       <div>
         <button class="relative h-[30px] mt-[9px] text-4xl z-[999999] font-bold md:hidden transition ease-in-out duration-1000" @click="nav = !nav">
@@ -19,10 +19,10 @@
           </div>
         </button>
         <div
-          class="fixed flex items-start md:items-center md:justify-between flex-1 md:gap-8 transition-all duration-1000 z-[9999] md:static md:h-auto md:w-auto md:flex-row md:bg-transparent"
+          class="fixed flex items-center md:items-center md:justify-between flex-1 md:gap-8 transition-all duration-1000 z-[9999] md:static md:h-auto md:w-auto md:flex-row md:bg-transparent"
           :class="{
-            'ps-[30px] md:h-auto h-full top-0 pt-[150px] md:pt-[0] right-0 w-[100%] flex-col bg-primary transition-all duration-1000 ': nav,
-            'ps-[30px] right-[-1000px] transition-all top-[150px] duration-1000 h-full bg-primary flex-col w-[100%]': !nav,
+            'ps-[30px] md:h-auto h-full top-0 pt-[200px] md:pt-[0] right-0 w-[100%] flex-col bg-white transition-all duration-1000 ': nav,
+            'ps-[30px] right-[-1000px] transition-all top-[200px] duration-1000 h-full bg-white flex-col w-[100%]': !nav,
           }" @click="nav = false">
           <div class="flex flex-col items-center gap-8 md:gap-4 lg:gap-12 md:flex-row mt-[10px] sm:mt-0">
             <ULink 
